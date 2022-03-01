@@ -7,7 +7,7 @@ This project is split into several stages:
 
 - Data Staging
 - Model training and Deployment
-- Lamdas and Step Function Workflow
+- Lambdas and Step Function Workflow
 - Testing and Evaluation
 
 ### Data Staging
@@ -16,7 +16,7 @@ The first step was to extract the data from the hosting service. Once the data w
 ### Model training and Deployment
 In this step, I used a AWS build-in image classification algorithm to train the model. Once the model was successfully trained, I deployed it to an endpoint and configured Model Monitor to track the deployment. At the end, I made an inference to test the model endpoint.
 
-### Lamdas and Step Function Workflow
+### Lambdas and Step Function Workflow
 In this step, I wrote and deployed three Lambda functions, and then used the Step Functions visual editor to chain them together.
 
 The first lambda function was responsible for data generation. The second one was responsible for image classification. And the third function was responsible for filtering out low-confidence inferences.
