@@ -21,5 +21,13 @@ In this step, I wrote and deployed three Lambda functions, and then used the Ste
 
 The first lambda function was responsible for data generation. The second one was responsible for image classification. And the third function was responsible for filtering out low-confidence inferences.
 
+See below for a screenshot of the working step function:
+
+![image](StepFunctionScreenshot.png)
+
 ### Testing and Evaluation
-In this step, I first performed several step function invokations using data from the test dataset. This process gave me confidence that the workflow both succeeded AND failed as expected (i.e. low-confidence inferences failed as expected). In addition, I used the captured data from SageMaker Model Monitor to create a visualization to monitor the model.
+In this step, I first performed several step function invokations using data from the test dataset. This process gave me confidence that the workflow both succeeded AND failed as expected (i.e. low-confidence inferences failed as expected). In addition, I used the captured data from SageMaker Model Monitor to create a visualization to monitor the model as seen below.
+
+![image](ModelMonitoringVisualizationScreenshot.png)
+
+
