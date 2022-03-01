@@ -1,5 +1,5 @@
 # Developing-ML-Workflow
-This is the Github repo for my ML workflow course. This repo contains the code for demos, exercises and the final project
+This is the Github repo for my ML workflow.
 
 In this project, I built and composed a scalable, ML-enabled, AWS application. I used AWS Sagemaker to build an image classification model that can tell bicycles apart from motorcycles. I then deployed the model, used AWS Lambda functions to build supporting services, and AWS Step Functions to compose my model and services into an event-driven application.
 
